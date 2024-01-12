@@ -1,8 +1,12 @@
 /* Work sans font from google font */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Merriweather:wght@900&family=Work+Sans:wght@300;400;500;600;700;800&display=swap');
 
+/* Shared style */
 *{
     font-family: 'Work Sans', sans-serif;
+}
+.btn-primary{
+
 }
 
 /* Header section style */
@@ -37,4 +41,20 @@ nav li{
 nav li a{
     text-decoration: none;
     color: #424242;
+}
+/* banner style */
+.banner-content{
+    max-width: 800px;
+    text-align: center;
+    margin: 0 auto;
+}
+.banner-title{
+    font-size: 4rem;/*   4rem=4*16=64  */
+    font-weight:700 ;
+    color: #131313;
+}
+.banner-description{
+    color: #727272;
+    font-weight: 400;
+    font-size: 1rem;
 }
