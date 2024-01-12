@@ -1,5 +1,40 @@
+/* Work sans font from google font */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Merriweather:wght@900&family=Work+Sans:wght@300;400;500;600;700;800&display=swap');
 
 *{
     font-family: 'Work Sans', sans-serif;
+}
+
+/* Header section style */
+
+header{
+    background: rgba(255, 144, 14, 0.10);
+    padding: 50px 240px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-title{
+    font-size: 2.8rem;
+    font-weight: 700;
+    color:#131313;
+}
+nav>ul{
+    display: flex;
+    text-decoration: none;
+}
+
+nav li{
+    list-style: none;
+    margin-right: 30px;
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+nav li a{
+    text-decoration: none;
+    color: #424242;
 }
