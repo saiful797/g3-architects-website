@@ -6,7 +6,14 @@
     font-family: 'Work Sans', sans-serif;
 }
 .btn-primary{
-
+    border: none; 
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding: 20px 25px;
+    border-radius: 8px;
+    background: #FF900E;
+    color: #FFF;
+    cursor: pointer;
 }
 
 /* Header section style */
@@ -26,7 +33,7 @@ nav{
     font-weight: 700;
     color:#131313;
 }
-nav>ul{
+nav> ul{
     display: flex;
     text-decoration: none;
 }
@@ -58,3 +65,39 @@ nav li a{
     font-weight: 400;
     font-size: 1rem;
 }
+
+.banner img{
+    margin: 20px;
+    width: 100%;
+}
+
+/* Responsive media quires */
+
+    /* For Mobile Devices */
+@media screen and (max-width: 576px) {
+    header{
+        padding: 20px;
+    }
+    nav{
+        flex-direction: column;
+    }
+    .banner-title{
+        font-size: 3rem;
+    }
+    .nav-title{
+        font-size: 2rem;
+    }
+    .banner img{
+        margin: 5px;
+    }
+}
+/*For tablet or Medium devices */
+@media screen and (min-width:576px )and (max-width: 960px) {
+    header{
+        padding: 50px;
+    }
+    nav{
+        flex-direction: column;
+    }
+}
+
