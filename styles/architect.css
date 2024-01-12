@@ -131,6 +131,13 @@ main{
     margin-bottom: 10px;
 }
 
+/* Our Sponsor style */
+.sponsor-img-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
 /* Responsive media quires */
 
     /* For Mobile Devices */
@@ -165,6 +172,11 @@ main{
             padding-left: 20px;
             padding-right: 20px;
         }
+
+        .facts-card-container,.sponsor-img-container{
+            flex-direction: column;
+            gap: 20px;
+        }
     }
     /*For tablet or Medium devices */
     @media screen and (min-width:576px )and (max-width: 960px) {
@@ -176,5 +188,9 @@ main{
         {
             flex-direction: column;
         }
+        .facts-card-container,.sponsor-img-container{
+            display: grid;
+            gap: 20px;
+            grid-template-columns: repeat(2,1fr);
+        }
     }
-    
