@@ -105,6 +105,44 @@ main{
 .teams-title .quick-list-3{
     color:#FF900E;
 }
+/* feature section style */
+.features{
+    display: flex;
+    margin-top: 100px;
+    gap: 100px;
+}
+.features .section-title{
+    padding-left: 20px;
+    border-left: 5px solid #FF900E;
+}
+
+.feature-content .card{
+    padding:10px;
+    margin-bottom: 20px;
+    width: 586px;
+    height: 171px;
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06); 
+}
+
+.ten-years-badge{
+    width: 342px;  
+    color: #FFF;
+    border-radius: 8px;
+    background: #FF900E;
+    font-weight: 700;
+    text-align: center;
+}
+
+.ten-years-badge h1{
+    font-size: 4rem;
+}
+.experience{
+    font-size: small;
+    justify-content: center;
+    align-items: center;
+}
 
 /* Some Facts section*/
 .facts-card-container{
