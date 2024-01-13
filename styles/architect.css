@@ -126,17 +126,29 @@ main{
     box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06); 
 }
 
+.feature-image img{
+    height: 90%;
+    margin-left: 100px;
+}
+
 .ten-years-badge{
     width: 342px;  
     color: #FFF;
     border-radius: 8px;
     background: #FF900E;
     font-weight: 700;
+    padding:40px;
     text-align: center;
+    position: relative;
+    bottom:100px;
 }
 
 .ten-years-badge h1{
+    margin: 0;
     font-size: 4rem;
+}
+.ten-years-badge p{
+    font-size: 1.5 rem;
 }
 .experience{
     font-size: small;
@@ -184,7 +196,10 @@ main{
             padding: 20px;
         }
         nav,
-        .teams-container
+        .teams-container,
+        .features,
+        .facts-card-container,
+        .sponsor-img-container
         {
             flex-direction: column;
         }
